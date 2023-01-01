@@ -63,14 +63,14 @@ function App() {
     });
   }
 
-  // if (response.ok) {
-  //   // The request was successful
-  //   const responseData = await response.json();
-  //   return responseData.text;
-  // } else {
-  //   // There was an error with the request
-  //   console.error(response.statusText);
-  // }
+  if (response.ok) {
+    // The request was successful
+    const responseData = await response.json();
+    return responseData.text;
+  } else {
+    // There was an error with the request
+    console.error(response.statusText);
+  }
 
   return (
     <div className="chat">
