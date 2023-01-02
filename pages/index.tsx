@@ -14,28 +14,81 @@ export default function Home() {
       </Head>
 
       <main >
-        <nav className='flex justify-between px-3 py-2 text-justify text-xs '>
-          <div className='flex  '>
-            <img src={fia} alt="FIA" className='my-auto mx-5 px-5 text-textgray border-textgray border-r-2' />
-            <div className='my-auto text-textgray'>
-              <a className='mx-3 ' href="#">F2</a>
-              <a className='mx-3 ' href="#">F3</a>
-              <a className='mx-3 ' href="#">F1</a>
+        <nav className='text-xs'>
+          <div className='flex justify-between p-2 text-justify '>
+            <div className='flex  '>
+              <img src={fia} alt="FIA" className='my-auto mx-3 px-5 h-6 text-textgray border-textgray border-r-2' />
+              <div className='my-auto text-textgray'>
+                <a className='mx-3 ' href="#">F2 </a>
+                <a className='mx-3 ' href="#">F3</a>
+                <a className='mx-3 ' href="#">F1</a>
+              </div>
+            </div>
+            <div className='flex '>
+                <div className='flex my-auto '>
+                  <a className='mx-3  py-1 border-t-2 border-b-2 border-transparent hover:text-primary hover:border-b-primary ' href='#'>AUTHENTICS</a>
+                  <a className='mx-3  py-1 border-t-2 border-b-2 border-transparent hover:text-primary hover:border-b-primary ' href='#'>STORE</a>
+                  <a className='mx-3  py-1 border-t-2 border-b-2 border-transparent hover:text-primary hover:border-b-primary ' href='#'>TICKETS</a>
+                  <a className='mx-3  py-1 border-t-2 border-b-2 border-transparent hover:text-primary hover:border-b-primary ' href='#'>HOSPITALITY</a>
+                  <a className='mx-3  py-1 border-t-2 border-b-2 border-transparent hover:text-primary hover:border-b-primary ' href='#'>EXPERIENCES</a>
+                </div>
+                <img src={f1Tv} alt="F1 TV" className='my-auto mx-3 px-5 h-6 tect-textgray border-textgray border-r-2 border-l-2' />
+                <button className='m-1 p-3 px-4 font-bold text-white transition-all duration-300 bg-button2 rounded-md border-none hover:bg-opacity-80' >SIGN IN</button>
+                <button className='m-1 p-3 px-4 font-bold text-white transition-all duration-300 bg-primary rounded-md border-none hover:bg-opacity-80'>SUBSCRIBE</button>
             </div>
           </div>
-          <div className='flex '>
-              <div className='flex my-auto '>
-                <a className='mx-3  py-1 border-t-2 border-b-2 border-transparent hover:text-red-600 hover:border-b-red-600 ' href='#'>AUTHENTICS</a>
-                <a className='mx-3  py-1 border-t-2 border-b-2 border-transparent hover:text-red-600 hover:border-b-red-600 ' href='#'>STORE</a>
-                <a className='mx-3  py-1 border-t-2 border-b-2 border-transparent hover:text-red-600 hover:border-b-red-600 ' href='#'>TICKETS</a>
-                <a className='mx-3  py-1 border-t-2 border-b-2 border-transparent hover:text-red-600 hover:border-b-red-600 ' href='#'>HOSPITALITY</a>
-                <a className='mx-3  py-1 border-t-2 border-b-2 border-transparent hover:text-red-600 hover:border-b-red-600 ' href='#'>EXPERIENCES</a>
-              </div>
-              <img src={f1Tv} alt="F1 TV" className='my-auto mx-3 px-3 tect-textgray border-textgray border-r-2 border-l-2' />
-              <button className='m-1 p-3 px-4 font-bold text-white bg-button2 rounded-lg border-none' >SIGN IN</button>
-              <button className='m-1 p-3 px-4 font-bold text-white bg-primary rounded-lg border-none'>SUBSCRIBE</button>
+          <div className='flex bg-primary text-white '>
+            <img className='w-32 h-10 m-5 mr-8 bg-textgray' src="" alt="F1" />
+            <button className='py-auto px-4 hover:bg-button2 transition-all duration-200 '>Latest</button>
+            <button className='py-auto px-4 hover:bg-button2 transition-all duration-200 '>Video</button>
+            <button className='py-auto px-4 hover:bg-button2 transition-all duration-200 '>Schedule</button>
+            <button className='py-auto px-4 hover:bg-button2 transition-all duration-200 '>Standings</button>
+            <button className='py-auto px-4 hover:bg-button2 transition-all duration-200 '>Drivers</button>
+            <button className='py-auto px-4 hover:bg-button2 transition-all duration-200 '>Teams</button>
+            <button className='py-auto px-4 hover:bg-button2 transition-all duration-200 '>Gaming</button>
+            <button className='py-auto px-4 hover:bg-button2 transition-all duration-200 '>Live Timing</button>
           </div>
         </nav>
+        <section className='px-5'>
+          <div className='bg-primary my-5 mx-auto w-2/3 h-60 '>
+            <h1 className=' text-textgray'>ad</h1>
+          </div>
+          <div className='flex'>
+            <div className='flex-1 mr-2 border-primary border-t-8 border-r-8 rounded-tr-3xl'>
+              <h3 className='text-primary text-xxs font-bold mt-5'>FEATURE</h3>
+              <h1 className='text-3xl pt-1 pb-3'>Lawrence Barretto’s 5 bold predictions for the 2023 season – how many of these will come true?</h1>
+              <div className='h-80 w-1/1 mx-auto ' >
+                <img src="" alt="0258823938" />
+              </div>
+            </div>
+            <div className='flex-1 flex ml-2 max-h-96 flex-col lg:flex-row lg:flex-wrap box-border '>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-red-500  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32  bg-black h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32  bg-black h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+              <div className='w-32 bg-black  h-32'></div>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   )

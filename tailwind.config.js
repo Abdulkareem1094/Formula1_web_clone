@@ -10,6 +10,9 @@ module.exports = {
         primary:'#e10600',
         button2:'#1f1f27',
         textgray:'#a19498',
+      },
+      fontSize:{
+        xxs:'10px',
       }
     },
   },
