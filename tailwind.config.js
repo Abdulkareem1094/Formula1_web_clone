@@ -8,11 +8,18 @@ module.exports = {
     extend: {
       colors:{
         primary:'#e10600',
-        button2:'#1f1f27',
+        button2:'#15151e',
         textgray:'#a19498',
+        bordergray:'#d0d0d2',
       },
       fontSize:{
         xxs:'10px',
+      },
+      borderWidth:{
+        1:'1px'
+      },
+      boxShadow:{
+        xxs:'0 2px 0 0 rgba(0,0,0,.2)',
       }
     },
   },

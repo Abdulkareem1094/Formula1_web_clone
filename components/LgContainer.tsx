@@ -1,9 +1,10 @@
 import React from 'react'
 
-export const LgContainer = () => {
+const LgContainer = () => {
   return (
- <div>
-  
- </div>
+    <div className='bg-black'>
+
+    </div>
   )
 }
+export default LgContainer;
