@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { NavBar } from '../components/NavBar';
+import { RedButton } from '../components/RedButton';
 
 
 export default function Formula1() {
@@ -14,39 +15,56 @@ export default function Formula1() {
 
       <main >
         <NavBar/>
-        <section className='px-5'>
+        <section className='px-5 '>
           <div className='bg-primary my-5 mx-auto w-2/3 h-60 '>
             <h1 className=' text-textgray'>ad</h1>
           </div>
-          <div className='flex'>
-            <div className='flex-1 mr-2 border-primary border-t-8 border-r-8 rounded-tr-3xl'>
-              <h3 className='text-primary text-xxs font-bold mt-5'>FEATURE</h3>
-              <h1 className='text-3xl pt-1 pb-3'>Lawrence Barretto’s 5 bold predictions for the 2023 season – how many of these will come true?</h1>
-              <div className='h-80 w-1/1 mx-auto ' >
-                <img src="" alt="0258823938" />
+          <div className='flex pb-10'>
+            <div className='flex-1 mr-2 pr-4 font-bold border-primary border-t-8 border-r-8 rounded-tr-3xl'>
+              <h3 className='text-primary text-xxs mt-5'>FEATURE</h3>
+              <h1 className='text-4xl pt-1 pb-4'>Lawrence Barretto’s 5 bold predictions for the 2023 season – how many of these will come true?</h1>
+              <div className='h-96 w-1/1 mx-auto ' >
+                <div className='w-1/1 h-96 bg-black'> </div>
               </div>
             </div>
-            <div className='flex-1 flex ml-2 max-h-96 flex-col lg:flex-row lg:flex-wrap box-border '>
-              <div className='w-32 bg-black  h-32'></div>
-              <div className='w-32 bg-red-500  h-32'></div>
-              <div className='w-32 bg-black  h-32'></div>
-              <div className='w-32  bg-black h-32'></div>
-              <div className='w-32 bg-black  h-32'></div>
-              <div className='w-32 bg-black  h-32'></div>
-              <div className='w-32 bg-black  h-32'></div>
-              <div className='w-32  bg-black h-32'></div>
-              <div className='w-32 bg-black  h-32'></div>
-              <div className='w-32 bg-black  h-32'></div>
-              <div className='w-32 bg-black  h-32'></div>
-              <div className='w-32 bg-black  h-32'></div>
-              <div className='w-32 bg-black  h-32'></div>
-              <div className='w-32 bg-black  h-32'></div>
-              <div className='w-32 bg-black  h-32'></div>
-              <div className='w-32 bg-black  h-32'></div>
-              <div className='w-32 bg-black  h-32'></div>
-              <div className='w-32 bg-black  h-32'></div>
-              <div className='w-32 bg-black  h-32'></div>
-              <div className='w-32 bg-black  h-32'></div>
+            <div className='flex-1'>
+              <div className='flex ml-2 max-h-96 overflow-y-scroll flex-row lg:flex-wrap '>
+                <div className='w-1/2 m-2 bg-black  h-32'></div>
+                <div className='w-1/2 m-2 bg-black  h-32'></div>
+                <div className='w-1/2 m-2 bg-red-500  h-32'></div>
+                <div className='w-1/2 m-2 bg-black  h-32'></div>
+                <div className='w-1/2 m-2 bg-black  h-32'></div>
+                <div className='w-1/2 m-2 bg-black  h-32'></div>
+                <div className='w-1/2 m-2 bg-black  h-32'></div>
+                <div className='w-1/2 m-2 bg-black  h-32'></div>
+                <div className='w-1/2 m-2 bg-black  h-32'></div>
+              </div>
+              <RedButton
+              value='VIEW LATEST NEWS >'
+              />
+            </div>
+          </div>
+          <div className='flex-1  h-140 my-10 mr-4 border-primary border-y-8 border-r-8 rounded-tr-3xl rounded-br-3xl'>
+            <h2 className='text-3xl -mt-6 pr-4 font-bold bg-white w-fit'>Editor's Picks</h2>
+            <div className='flex overflow-hidden pr-4 py-6'>
+
+                <div className='flex-1  mr-2 '>
+                  <div className='h-80 w-1/1 mx-auto ' >
+                    <div className='w-1/1 h-80 bg-black'> </div>
+                    </div>
+                  </div>
+                <div className='flex-1  ml-2 '>
+                  <div className='flex ml-2 flex-col lg:flex-row lg:flex-wrap box-border '>
+                    <div className='w-1/2 bg-black  h-32'></div>
+                    <div className='w-1/2 bg-black  h-32'></div>
+                    <div className='w-1/2 bg-red-500  h-32'></div>
+                    <div className='w-1/2 bg-black  h-32'></div>
+                    <div className='w-1/2 bg-black  h-32'></div>
+                    <div className='w-1/2 bg-black  h-32'></div>
+                    <div className='w-1/2 bg-black  h-32'></div>
+                    <div className='w-1/2 bg-black  h-32'></div>
+                  </div>  
+                </div>
             </div>
           </div>
         </section>
