@@ -7,3 +7,15 @@ body {
   padding: 0;
   /* font-family: "Open Sans", sans-serif; */
 }
+@font-face {
+  font-family: "TitilliumWeb-SemiBold";
+  src: url("../public/TitilliumWeb-SemiBold.ttf");
+}
+@font-face {
+  font-family: "TitilliumWeb-Regular";
+  src: url("../public/TitilliumWeb-Regular.ttf");
+}
+@font-face {
+  font-family: "TitilliumWeb-Bold";
+  src: url("../public/TitilliumWeb-Bold.ttf");
+}

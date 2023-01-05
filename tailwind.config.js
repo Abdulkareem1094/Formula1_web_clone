@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      space:{
+        2:'2px'
+      },
       colors:{
         primary:'#e10600',
         button2:'#15151e',
@@ -21,8 +24,15 @@ module.exports = {
       },
       boxShadow:{
         xxs:'0 2px 0 0 rgba(0,0,0,.2)',
+      },
+      fontFamily:{
+        titilliumWebBold:'TitilliumWeb-Bold',
+        titilliumWebRegular:'TitilliumWeb-Regular',
+        titilliumWebSemiBold:'TitilliumWeb-SemiBold',
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide'),
+  ],
 }
