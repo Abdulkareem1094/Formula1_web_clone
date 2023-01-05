@@ -17,7 +17,7 @@ export default function Formula1() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=' font-titilliumWebRegular  '>
+      <main className=' font-titilliumWebRegular'>
         <NavBar/>
         <section className='px-5 '>
           <div className='bg-textgray my-5 mx-auto w-2/3 '>
