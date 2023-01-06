@@ -38,17 +38,31 @@ export const NavBar = () => {
       <div className='flex'>
         <div className='group'>
             <button className='py-auto h-full px-4 group-hover:bg-button2 transition-all duration-300 '>Latest &darr;</button>
-            <div className='absolute left-0 p-10 bg-button2 w-full shadow-xxs h-32 transition-all duration-500 delay-300 border-b-1 border-primary hidden group-hover:flex '/>           
+            <div className='absolute left-0 p-10 bg-button2 w-full shadow-xxs transition-all duration-500 delay-300 border-b-1 border-primary hidden group-hover:flex '/>           
         </div>    
         <button className='py-auto px-4 hover:bg-button2 transition-all duration-200 '>Video</button>
-        <button className='py-auto px-4 hover:bg-button2 transition-all duration-200 '>Schedule</button>
-        <button className='py-auto px-4 hover:bg-button2 transition-all duration-200 '>Standings</button>
-        <button className='py-auto px-4 hover:bg-button2 transition-all duration-200 '>Drivers</button>
-        <button className='py-auto px-4 hover:bg-button2 transition-all duration-200 '>Teams</button>
-        <button className='py-auto px-4 hover:bg-button2 transition-all duration-200 '>Gaming</button>
+        <div className='group'>
+            <button className='py-auto h-full px-4 group-hover:bg-button2 transition-all duration-300 '>Schedule &darr;</button>
+            <div className='absolute left-0 p-10 bg-button2 w-full shadow-xxs transition-all duration-500 delay-300 border-b-1 border-primary hidden group-hover:flex '/>           
+        </div>    
+        <div className='group'>
+            <button className='py-auto h-full px-4 group-hover:bg-button2 transition-all duration-300 '>Standings &darr;</button>
+            <div className='absolute left-0 p-10 bg-button2 w-full shadow-xxs transition-all duration-500 delay-300 border-b-1 border-primary hidden group-hover:flex '/>           
+        </div>    
+        <div className='group'>
+            <button className='py-auto h-full px-4 group-hover:bg-button2 transition-all duration-300 '>Drivers &darr;</button>
+            <div className='absolute left-0 p-10 bg-button2 w-full shadow-xxs transition-all duration-500 delay-300 border-b-1 border-primary hidden group-hover:flex '/>           
+        </div>    
+        <div className='group'>
+            <button className='py-auto h-full px-4 group-hover:bg-button2 transition-all duration-300 '>Teams &darr;</button>
+            <div className='absolute left-0 p-10 bg-button2 w-full shadow-xxs transition-all duration-500 delay-300 border-b-1 border-primary hidden group-hover:flex '/>           
+        </div>    
+        <div className='group'>
+            <button className='py-auto h-full px-4 group-hover:bg-button2 transition-all duration-300 '>Gaming &darr;</button>
+            <div className='absolute left-0 p-10 bg-button2 w-full shadow-xxs transition-all duration-500 delay-300 border-b-1 border-primary hidden group-hover:flex '/>           
+        </div>    
         <button className='py-auto px-4 hover:bg-button2 transition-all duration-200 '>Live Timing</button>
-      </div>
-   
+      </div>  
     </div> 
     
 

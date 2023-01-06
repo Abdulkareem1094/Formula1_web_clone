@@ -115,25 +115,25 @@ export default function Formula1() {
             <div className='flex py-5 gap-5'>
             <NewsCard
                 className1='border-none group-hover:bg-button2 rounded-br-xl rounded-bl-xl '
-                className2='hover:bg-button2 rounded-br-xl rounded-bl-xl hover:text-white'
+                className2='group-hover:bg-button2 rounded-br-xl rounded-bl-xl hover:text-white'
                 text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                 image={img}
                 />
             <NewsCard
                 className1='border-none group-hover:bg-button2 rounded-br-xl rounded-bl-xl '
-                className2='hover:bg-button2 rounded-br-xl rounded-bl-xl hover:text-white'
+                className2='group-hover:bg-button2 rounded-br-xl rounded-bl-xl hover:text-white'
                 text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                 image={img}
                 />
             <NewsCard
                 className1='border-none group-hover:bg-button2 rounded-br-xl rounded-bl-xl '
-                className2='hover:bg-button2 rounded-br-xl rounded-bl-xl hover:text-white'
+                className2='group-hover:bg-button2 rounded-br-xl rounded-bl-xl hover:text-white'
                 text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                 image={img}
                 />
             <NewsCard
                 className1='border-none group-hover:bg-button2 rounded-br-xl rounded-bl-xl '
-                className2='hover:bg-button2 rounded-br-xl rounded-bl-xl hover:text-white'
+                className2='group-hover:bg-button2 rounded-br-xl rounded-bl-xl hover:text-white'
                 text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                 image={img}
                 />

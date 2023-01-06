@@ -8,10 +8,10 @@ export const NewsCard = ({text,image,className1,className2}:any) => {
         <Image className='mt-0 ' src={image} alt='9080' />
         : ''}
         <div className={` pt-5 z-30 h-full transition-all duration-300 ease-in-out 
-                        rounded-br-md ${image? 'group-hover:-mt-3' : '' } ${className1}`
+                        rounded-br-xl ${image? 'group-hover:-mt-3' : '' } ${className1}`
                         }>
             <div className={`p-4 z-30 h-full border-textgray border-r-1 
-                            rounded-br-md border-b-1 group-hover:border-primary ${className1}`
+                            rounded-br-xl border-b-1 group-hover:border-primary ${className1}`
                             }>
                 <h2>
                     {text}
