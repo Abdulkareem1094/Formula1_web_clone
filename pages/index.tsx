@@ -17,14 +17,14 @@ export default function Formula1() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=' font-titilliumWebRegular'>
+      <main className='tracking-wider font-titilliumWebRegular'>
         <NavBar/>
-        <section className='px-5 '>
+        <section className='px-5 sm:px-2 md:p-4 lg:p-2 '>
           <div className='bg-textgray my-5 mx-auto w-2/3 '>
             <Image src={ad} alt='ad' width={'100%'} height={'100%'} />
           </div>
-          <div className='flex pb-10 box-border overflow-hidden'>
-            <div className='flex-1 mr-2 pr-4 font-titilliumWebBold border-primary border-t-8 border-r-8 rounded-tr-3xl'>
+          <div className='flex flex-row pb-10 box-border overflow-hidden flex-wrap lg:flex-nowrap '>
+            <div className=' mr-2 pr-4 font-titilliumWebBold border-primary border-t-8 border-r-8 rounded-tr-3xl lg:flex-1'>
               <h3 className='text-primary text-xxs mt-5'>FEATURE</h3>
               <div className='my-auto'>
                 <h1 className='text-4xl pt-1 pb-4'>Lawrence Barretto’s 5 bold predictions for the 2023 season – how many of these will come true?</h1>
@@ -33,36 +33,42 @@ export default function Formula1() {
                 </div>
               </div>
             </div>
-            <div className='flex-1 h-[31rem] '>
+            <div className=' h-[31rem] lg:flex-1'>
               <div className='flex h-full flex-row flex-wrap gap-5 overflow-scroll scrollbar-hide'>
                 <NewsCard
                     className1='bg-white '
-                    text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
+                    type='NEWS'
+                    text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                     image={img}
                     />
                 <NewsCard
                     className1='bg-white '
-                    text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
+                    type='VIDEO'
+                    text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                     image={img}
                     />
                 <NewsCard
                     className1='bg-white '
-                    text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
+                    type='NEWS'
+                    text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                     image={img}
                     />
                 <NewsCard
                     className1='bg-white '
-                    text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
+                    type='NEWS'
+                    text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                     image={img}
                     />
                 <NewsCard
                     className1='bg-white '
-                    text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
+                    type='NEWS'
+                    text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                     image={img}
                     />
                 <NewsCard
                     className1='bg-white '
-                    text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
+                    type='VIDEO'
+                    text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                     image={img}
                     />  
               </div>
@@ -88,21 +94,25 @@ export default function Formula1() {
                   <div className='flex h-full flex-row flex-wrap gap-5'>
                     <NewsCard
                         className1='bg-white '
-                        text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
+                        type='FEATURE'
+                        text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                         image={img}
                         />
                     <NewsCard
                         className1='bg-white '
-                        text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
+                        type='FEATURE'
+                        text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                         image={img}
                         />
                     <NewsCard
                         className1='bg-white '
-                        text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
+                        type='FEATURE'
+                        text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                         />
                     <NewsCard
                         className1='bg-white '
-                        text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
+                        type='FEATURE'
+                        text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                         />
                   </div>
                 </div>
@@ -114,27 +124,31 @@ export default function Formula1() {
           <div className='w-full border-t-8 border-black'>
             <div className='flex py-5 gap-5'>
             <NewsCard
-                className1='border-none group-hover:bg-button2 rounded-br-xl rounded-bl-xl '
-                className2='group-hover:bg-button2 rounded-br-xl rounded-bl-xl hover:text-white'
-                text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
+                className1='border-none group-hover:bg-button2 rounded-br-xl rounded-bl-xl  '
+                className2='group-hover:bg-red rounded-br-xl rounded-bl-xl hover:text-white'
+                type='NEWS'
+                text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                 image={img}
                 />
             <NewsCard
-                className1='border-none group-hover:bg-button2 rounded-br-xl rounded-bl-xl '
-                className2='group-hover:bg-button2 rounded-br-xl rounded-bl-xl hover:text-white'
-                text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
+                className1='border-none group-hover:bg-button2 rounded-br-xl rounded-bl-xl  '
+                className2='group-hover:bg-red rounded-br-xl rounded-bl-xl hover:text-white'
+                type='NEWS'
+                text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                 image={img}
                 />
             <NewsCard
-                className1='border-none group-hover:bg-button2 rounded-br-xl rounded-bl-xl '
-                className2='group-hover:bg-button2 rounded-br-xl rounded-bl-xl hover:text-white'
-                text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
+                className1='border-none group-hover:bg-button2 rounded-br-xl rounded-bl-xl  '
+                className2='group-hover:bg-red rounded-br-xl rounded-bl-xl hover:text-white'
+                type='NEWS'
+                text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                 image={img}
                 />
             <NewsCard
-                className1='border-none group-hover:bg-button2 rounded-br-xl rounded-bl-xl '
-                className2='group-hover:bg-button2 rounded-br-xl rounded-bl-xl hover:text-white'
-                text=' WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
+                className1='border-none group-hover:bg-button2 rounded-br-xl rounded-bl-xl  '
+                className2='group-hover:bg-red rounded-br-xl rounded-bl-xl hover:text-white'
+                type='NEWS'
+                text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                 image={img}
                 />
 

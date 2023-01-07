@@ -1,12 +1,13 @@
 import React from 'react'
 import Image from 'next/image';
 import { RedButton } from './RedButton';
+import { SlMenu, SlUser} from 'react-icons/sl'
 
 export const NavBar = () => {
   return (
-    <nav className='tracking-wider '>
-    <div className='flex justify-between font-bold text-ms'>
-      <div className='flex  '>
+    <nav>
+    <div className='hidden justify-between font-bold text-ms lg:flex'>
+      <div className='flex '>
         <Image alt='FIA' src='/../public/fia_logo.png' width={80} height={5.5}
         className='my-auto mr-3 ml-1 px-5 text-textgray border-bordergray border-r-1 cursor-pointer'
         />
@@ -31,11 +32,17 @@ export const NavBar = () => {
           <RedButton className='bg-primary ' value='SUBSCRIBE' />
       </div>
     </div>
-    <div className='flex w-screen relative bg-primary text-white text-lg font-titilliumWebSemiBold'>
-      <Image src='/f1_logo.svg' alt='F1_logo' height={10} width={32}
-      className='w-32 h-10 mx-5 my-4 mr-8 cursor-pointer'
-      />
-      <div className='flex'>
+    <div className='flex w-full relative bg-primary text-white text-lg font-titilliumWebSemiBold'>
+      <div className='flex w-full lg:w-fit' >
+        <SlMenu className='flex mx-2 h-11 cursor-pointer w-11 my-auto p-3 rounded-md lg:hidden' /> 
+        <div className='mx-auto lg:mx-0 ' >
+          <Image src='/f1_logo.svg' alt='F1_logo' height={10} width={32}
+          className='w-32 h-10 mx-auto my-4 mr-8 cursor-pointer lg:mx-5'/>
+        </div> 
+        <SlUser className='flex mx-3 h-11 cursor-pointer w-11 my-auto p-3 rounded-md bg-button2 lg:hidden' />
+        </div>
+
+      <div className='hidden lg:flex'>
         <div className='group'>
             <button className='py-auto h-full px-4 group-hover:bg-button2 transition-all duration-300 '>Latest &darr;</button>
             <div className='absolute left-0 p-10 bg-button2 w-full shadow-xxs transition-all duration-500 delay-300 border-b-1 border-primary hidden group-hover:flex '/>           
