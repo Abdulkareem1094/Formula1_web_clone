@@ -47,23 +47,29 @@ export const NavBar = () => {
       <div className='hidden lg:flex'>
         <div className='group'>
             <button className='py-auto h-full px-4 group-hover:bg-button2 transition-all duration-300 '>Latest &darr;</button>
-            <div className='flex absolute left-0 p-10 bg-button2 w-full shadow-xxs transition-all duration-500 delay-300 border-b-1 border-primary hidden group-hover:flex '>
+            <div className='flex gap-2 absolute left-0 p-10 bg-button2 w-full shadow-xxs transition-all duration-500 delay-300 border-b-1 border-primary hidden group-hover:flex '>
             <NewsCard
-                className1='border-none group-hover:bg-button2 rounded-br-xl rounded-bl-xl  '
-                className2='group-hover:bg-red rounded-br-xl rounded-bl-xl hover:text-white'
+                className1='  '
+                className2='text-white'
                 type='NEWS'
                 text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                 image={img}
                 />
                 <NewsCard
-                className1='border-none group-hover:bg-button2 rounded-br-xl rounded-bl-xl  '
-                className2='group-hover:bg-red rounded-br-xl rounded-bl-xl hover:text-white'
+                className1='  '
+                className2='text-white'
                 type='NEWS'
                 text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                 />
                 <NewsCard
-                className1='border-none group-hover:bg-button2 rounded-br-xl rounded-bl-xl  '
-                className2='group-hover:bg-red rounded-br-xl rounded-bl-xl hover:text-white'
+                className1='  '
+                className2='text-white'
+                type='NEWS'
+                text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
+                />
+                <NewsCard
+                className1='  '
+                className2='text-white'
                 type='NEWS'
                 text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
                 />
