@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import { RedButton } from './RedButton';
 import { SlMenu, SlUser} from 'react-icons/sl'
+import { NewsCard } from './NewsCard'
 
 export const NavBar = () => {
   return (
@@ -45,7 +46,13 @@ export const NavBar = () => {
       <div className='hidden lg:flex'>
         <div className='group'>
             <button className='py-auto h-full px-4 group-hover:bg-button2 transition-all duration-300 '>Latest &darr;</button>
-            <div className='absolute left-0 p-10 bg-button2 w-full shadow-xxs transition-all duration-500 delay-300 border-b-1 border-primary hidden group-hover:flex '/>           
+            <div className='absolute left-0 p-10 bg-button2 w-full shadow-xxs transition-all duration-500 delay-300 border-b-1 border-primary hidden group-hover:flex '>
+            <NewsCard
+                        className1='bg-white '
+                        type='FEATURE'
+                        text='WATCH: Extended highlights of your favourite race of last year – the 2022 British Grand Prix'
+                        />
+            </div>             
         </div>    
         <button className='py-auto px-4 hover:bg-button2 transition-all duration-200 '>Video</button>
         <div className='group'>
