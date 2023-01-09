@@ -153,6 +153,8 @@ export default function Formula1() {
           <div className='bg-textgray my-5 mx-auto w-2/3 '>
             <Image src={ad} alt='ad' width={'100%'} height={'100%'} />
           </div>
+          
+          
         </section>
       </main>
     </>
