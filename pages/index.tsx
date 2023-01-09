@@ -19,17 +19,17 @@ export default function Formula1() {
 
       <main className='tracking-wider font-titilliumWebRegular'>
         <NavBar/>
-        <section className='px-5 sm:px-2 md:p-4 lg:p-2 '>
+        <section className='px-5 md:p-20 lg:p-5 '>
           <div className='bg-textgray my-5 mx-auto w-2/3 '>
             <Image src={ad} alt='ad' width={'100%'} height={'100%'} />
           </div>
-          <div className='flex flex-row pb-10 box-border overflow-hidden flex-wrap lg:flex-nowrap '>
-            <div className=' mr-2 pr-4 font-titilliumWebBold border-primary border-t-8 border-r-8 rounded-tr-3xl lg:flex-1'>
+          <div className='flex flex-row gap-4 pb-10 box-border overflow-hidden flex-wrap lg:flex-nowrap '>
+            <div className=' pr-4 font-titilliumWebBold border-primary group border-t-8 border-r-8 rounded-tr-3xl lg:flex-1'>
               <h3 className='text-primary text-xxs mt-5'>FEATURE</h3>
               <div className='my-auto'>
-                <h1 className='text-4xl pt-1 pb-4'>Lawrence Barretto’s 5 bold predictions for the 2023 season – how many of these will come true?</h1>
+                <h1 className='text-4xl pt-1 pb-4 group-hover:underline '>Lawrence Barretto’s 5 bold predictions for the 2023 season – how many of these will come true?</h1>
                 <div className=' w-1/1 mx-auto ' >
-                    <Image className=' object-contain' src={img} alt='9080' width={'100%'} height={'100%'}/>
+                    <Image className=' object-contain ' src={img} alt='9080' width={'100%'} height={'100%'}/>
                 </div>
               </div>
             </div>
@@ -78,19 +78,15 @@ export default function Formula1() {
                 />
             </div>
           </div>
-          <div className='flex-1  h-140 my-10 mr-4 border-primary border-y-8 border-r-8 rounded-tr-3xl rounded-br-3xl'>
+          <div className='flex-1 my-10 border-primary border-y-8 border-r-8 rounded-tr-3xl rounded-br-3xl'>
             <h2 className='text-3xl -mt-6 pr-4 font-bold bg-white w-fit'>Editor's Picks</h2>
-            <div className='flex overflow-hidden pr-4 py-6'>
-
-                <div className='flex-1  mr-2 '>
-                  <div className='h-80 w-1/1 mx-auto ' >
-                    <div className='w-1/1 h-[344px] w-[611px] bg-black'>
+            <div className='flex flex-col flex-wrap gap-4 overflow-hidden pr-4 py-6 lg:flex-row'>
+                <div className='flex-1 '>
+                  <div className=' w-full max-w-[625px] max-h-[352px] mx-auto ' >
                     <Image className=' object-contain' src={img} alt='9080' width={'100%'} height={'100%'} />
-
-                    </div>
-                    </div>
                   </div>
-                <div className='flex-1  ml-2 '>
+                </div>
+                <div className='flex-1  '>
                   <div className='flex h-full flex-row flex-wrap gap-5'>
                     <NewsCard
                         className1='bg-white '
@@ -119,10 +115,10 @@ export default function Formula1() {
             </div>
           </div>
         </section>
-        <section className='px-5 '>
+        <section className='px-5 md:p-20 lg:p-5'>
           <h1>More News</h1>
-          <div className='w-full border-t-8 border-black'>
-            <div className='flex py-5 gap-5'>
+          <div className='w-full border-t-8 border-black pt-4'>
+            <div className='flex flex-row flex-wrap pb-4 lg:p-0 lg:flex-nowrap py-5 gap-5'>
             <NewsCard
                 className1='border-none group-hover:bg-button2 rounded-br-xl rounded-bl-xl  '
                 className2='group-hover:bg-red rounded-br-xl rounded-bl-xl hover:text-white'
