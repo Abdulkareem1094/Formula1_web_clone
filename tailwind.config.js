@@ -14,6 +14,7 @@ module.exports = {
         button2:'#15151e',
         textgray:'#a19498',
         bordergray:'#d0d0d2',
+        green:'#006341',
       },
       fontSize:{
         xxs:'10px',

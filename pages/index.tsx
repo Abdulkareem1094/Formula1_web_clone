@@ -114,9 +114,8 @@ export default function Formula1() {
                 </div>
             </div>
           </div>
-        </section>
-        <section className='px-5 md:p-20 lg:p-5'>
-          <h1>More News</h1>
+
+          <h1 className='text-2xl font-bold' >More News</h1>
           <div className='w-full border-t-8 border-black pt-4'>
             <div className='flex flex-row flex-wrap pb-4 lg:p-0 lg:flex-nowrap py-5 gap-5'>
             <NewsCard
@@ -153,8 +152,22 @@ export default function Formula1() {
           <div className='bg-textgray my-5 mx-auto w-2/3 '>
             <Image src={ad} alt='ad' width={'100%'} height={'100%'} />
           </div>
+        </section>
+
+        <section>
           
-          
+          <div className='flex w-full p-4 my-2 bg-button2  '>
+            <div className='flex flex-col gap-4 text-center p-2 h-[600px] w-[694px] rounded-br-xl text-white border-textgray border-r-1 border-b-1' >
+                <h3>BAHRAIN</h3>
+                <h2>FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2023</h2>
+                <h3>03 MAR 2023 - 05 MAR 2023</h3>
+                <div className=' w-full h-20 rounded-md bg-green '></div>
+                <div className='absolute mr-10 w-fit float-right rounded-md py-2 px-4 border-white border-1 hover:border-2 '>
+                  CONVERT TO TRACK TIME
+                </div>
+            </div>
+          </div>      
+
         </section>
       </main>
     </>
