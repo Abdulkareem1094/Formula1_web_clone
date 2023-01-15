@@ -45,21 +45,26 @@ export const NavBar = () => {
     <div className='flex w-full relative bg-primary text-white text-lg font-titilliumWebSemiBold'>
       <div className= {`flex w-full lg:w-fit ${menu? 'hidden' : ''} `} >
         <SlMenu className='flex mx-2 h-11 cursor-pointer w-11 my-auto p-3 rounded-md lg:hidden'
-        onClick={toggleMenu()}
+        onClick={toggleMenu}
         /> 
         <div className='mx-auto lg:mx-0 ' >
           <Image src='/f1_logo.svg' alt='F1_logo' height={10} width={32}
           className='w-32 h-10 mx-auto my-4 mr-8 cursor-pointer lg:mx-5'/>
         </div> 
         <SlUser className='flex mx-3 h-11 cursor-pointer w-11 my-auto p-3 rounded-md bg-button2 lg:hidden' />
-        </div>
-
-      <div className='hidden lg:flex'>
-
-      <div className='flex w-full h-full bg-primary ' >
-        
+      </div>
+      <div className= {`flex w-full lg:w-fit ${menu? 'flex' : 'hidden'} `} >
+        <SlMenu className='flex mx-23 h-11 cursor-pointer w-11 my-auto p-3 rounded-md lg:hidden'
+        onClick={toggleMenu}
+        /> 
+        <div className='mx-auto lg:mx-0 ' >
+          <Image src='/f1_logo.svg' alt='F1_logo' height={7} width={23}
+          className='w-23 h-7 mx-auto my-4 mr-8 cursor-pointer lg:mx-5'/>
+        </div> 
+        <SlUser className='flex mx-3 h-11 cursor-pointer w-11 my-auto p-3 rounded-md bg-button2 lg:hidden' />
       </div>
 
+      <div className='hidden lg:flex'>
         <div className='group'>
             <button className='py-auto h-full px-4 group-hover:bg-button2 transition-all duration-300 '>Latest &darr;</button>
             <div className=' gap-2 absolute left-0 p-10 bg-button2 w-full shadow-xxs transition-all duration-500 delay-300 border-b-1 border-primary hidden group-hover:flex '>
